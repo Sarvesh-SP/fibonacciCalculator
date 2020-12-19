@@ -1,7 +1,7 @@
 print("Welcome to the Fibonacci Calculator App")
 
 num = int(
-    input("How many digits of the fibonacci sequence would you like to compute: "))
+    input("\n\nHow many digits of the fibonacci sequence would you like to compute: "))
 
 fib = [1, 1]
 
@@ -23,3 +23,6 @@ print("\nThe corresponding Golden Ratio values ar: ")
 
 for x in golden:
     print(x)
+
+
+print("\nThe ratio of consecutive Fibonacci terms approaches Phi: 1.618..")
