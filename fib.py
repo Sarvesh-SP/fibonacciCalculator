@@ -9,5 +9,17 @@ for x in range(num - 2):
     new_fib = fib[x] + fib[x+1]
     fib.append(new_fib)
 
+print(F"\nThe first {num} numbers of the Fibonacci Sequence are: ")
+for x in fib:
+    print(x)
 
-print(fib)
+golden = []
+for i in range(len(fib) - 1):
+    ratio = fib[i+1] / fib[i]
+    golden.append(ratio)
+
+
+print("\nThe corresponding Golden Ratio values ar: ")
+
+for x in golden:
+    print(x)
