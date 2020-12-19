@@ -1,7 +1,7 @@
 print("Welcome to the Fibonacci Calculator App")
 
 num = int(
-    input("\n\nHow many digits of the fibonacci sequence would you like to compute: "))
+    input("\nHow many digits of the fibonacci sequence would you like to compute: "))
 
 fib = [1, 1]
 
