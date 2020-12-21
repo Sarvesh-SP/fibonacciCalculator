@@ -1,2 +1,2 @@
 # factorialCalculatorApp
-40 Days Python Coding Challenge.
+* 14th Day
